@@ -135,7 +135,7 @@ items.forEach(item=>{
 
 
     let div2=document.createElement("div")
-    div2.className="border-3  h-auto space-y-3 bg-white p-5 rounded-xl"
+    div2.className="border-3 w-full  h-auto space-y-3 bg-white p-5 rounded-xl"
     div2.innerHTML=`
                         <img class="rounded-3xl border-3 min-w-full max-h-[200px]" src="${item.image}">
                         <h1 onclick="showmodule(${item.id})" class=" cursor-pointer text-2xl font-bold ">${item. name}</h1>
